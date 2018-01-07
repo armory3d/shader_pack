@@ -24,6 +24,6 @@ void main() {
 	gl_Position = WVP * mPos;
 
 	// Color
-	color = vec3(0.2, 0.3, 0.05);
+	color = vec3(0.1, 0.3, 0.05);
 	color *= (pos.z + 0.2) * 2.0;
 }
